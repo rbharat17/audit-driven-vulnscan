@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python dotenv / env files (secrets)
+.env
+.env.* 
+
+# Config with your API key (keep local only)
+config.py
+
+# Nmap / scan outputs and local artifacts
+scan_results.xml
+*.xml
+*.evtx
+sample_data/
+
+# Logs
+*.log
+
+# OS generated
+.DS_Store
